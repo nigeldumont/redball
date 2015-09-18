@@ -4,25 +4,25 @@
         <script type="text/javascript" src="https://storage.googleapis.com/ics-redball/redball.js "></script>
         <script type="text/javascript">
             function moveright(){
-                redball.left=redball.left +10;
+                redball.left=redball.left +20;
             }
             function moveleft(){
-                redball.left=redball.left -10;
+                redball.left=redball.left -20;
             }
             function moveup(){
-                redball.top=redball.top +10;
+                redball.top=redball.top +20;
             }
             function movedown(){
-                redball.top=redball.top -10;
+                redball.top=redball.top -20;
             }
         </script>
     </head>
     <body>
         <img id="redball" src="http://lrn.icstars.org/redball.jpg"></img>
-        <button on click="alert()">hello worlds</button>
-        <button on click="moveright()">move right</button>
-        <button on click="moveleft()">move left</button>
-        <button on click="moveup()">move up</button>
-        <button on click="movedown()">move down</button>
+        <button onclick="alert()">hello worlds</button>
+        <button onclick="moveright()">move right</button>
+        <button onclick="moveleft()">move left</button>
+        <button onclick="moveup()">move up</button>
+        <button onclick="movedown()">move down</button>
     </body>
 </html>
